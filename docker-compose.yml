@@ -7,4 +7,4 @@ services:
       - "8080:8080"
     environment:
       - JAVA_OPTS=-Xmx512m -Xms256m
-    container_name: PI
+    container_name: provaintermediaria

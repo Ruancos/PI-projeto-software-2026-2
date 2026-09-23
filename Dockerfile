@@ -15,7 +15,7 @@ FROM eclipse-temurin:25-jre
 
 WORKDIR /app
 
-COPY --from=builder /build/target/PI-*.jar app.jar
+COPY --from=builder /build/target/provaintermediaria-*.jar app.jar
 
 EXPOSE 8080
 
